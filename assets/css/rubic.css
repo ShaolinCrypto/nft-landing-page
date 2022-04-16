@@ -11766,6 +11766,16 @@ img.tower {
 
 }
 
+/* Add top margin to video button on small mobile resolutions that cause button to collapse under opensea button */
+
+@media (max-width: 382px) {
+
+  #videoBtn {
+    margin-top:20px;
+  }
+
+}
+
 
 /* Video Modal */
 
