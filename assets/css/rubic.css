@@ -11699,7 +11699,7 @@ img.tower {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
 .countdown .clock-item {
   list-style: none;
@@ -11736,6 +11736,36 @@ img.tower {
   border-left: 1px solid  #343A40;
   border-bottom: 1px solid #343A40
 }
+
+/* Responsive Timer */
+
+@media (max-width: 768px) {
+
+
+  .countdown ul {
+    display: flex;
+    gap: 0.25rem;
+  }
+
+  .countdown .clock-item {
+    list-style: none;
+    width: 23%;
+  }
+
+  .countdown .clock-item .count-number {
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 1.5rem 1.0rem;
+  }
+  .countdown .clock-item .count-text {
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0.7rem 0.7rem;
+  }
+
+
+}
+
 
 /* Video Modal */
 
