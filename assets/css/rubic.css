@@ -11683,32 +11683,52 @@ img.tower {
 
 /* Begin Countdown  */
 
-#timer {
-	text-align:center;
-    font-size: 3em;
-    font-weight: 100;
-    color: white;
-    padding: 20px;
-    width: 700px;
-    color: white;
-	margin: 0px auto;
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-#timer div {
-    display: inline-block;
-    min-width: 90px;
-    padding: 15px;
-    background: #FF9A44;
-    border-radius: 10px;
-    border: 1px solid #343A40;
-    margin: 15px;
+.countdown ul {
+  display: flex;
+  gap: 2rem
 }
-#timer div span {
-    color: #ffffff;
-    display: block;
-    margin-top: 15px;
-    font-size: .35em;
-    font-weight: 400;
+.countdown .clock-item {
+  list-style: none;
+  width: 90px;
+  height: auto;
+}
+.countdown .clock-item .count-number {
+  background: #FF9A44;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 100;
+  padding: 1.5rem 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  border-radius: 10px 10px 0 0;
+  border-top: 1px solid #343A40;
+  border-right: 1px solid #343A40;
+  border-left: 1px solid  #343A40;
+}
+.countdown .clock-item .count-text {
+  background: #FF9A44;
+  font-size: 1.0rem;
+  font-weight: 100;
+  color: #ffffff;
+  padding: 0.7rem 0.7rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  border-radius: 0 0 10px 10px;
+  border-right: 1px solid #343A40;
+  border-left: 1px solid  #343A40;
+  border-bottom: 1px solid #343A40
 }
 
 /* Video Modal */
