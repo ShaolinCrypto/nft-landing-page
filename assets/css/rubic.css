@@ -11777,6 +11777,17 @@ img.tower {
 }
 
 
+/* Increase video modal Size on small screens */
+
+@media (max-width: 382px) {
+
+  .modal-content {
+    width: 80%;
+  }
+
+}
+
+
 /* Video Modal */
 
 .modal {
