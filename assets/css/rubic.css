@@ -11685,9 +11685,9 @@ img.tower {
   position: relative;
   top: 20px;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center;
-min-height:30px;
+  min-height:30px;
 }
 
 /* Begin Countdown  */
