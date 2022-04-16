@@ -11782,3 +11782,8 @@ img.tower {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* custom padding */
+.pad-bottom-20 {
+  padding-bottom:20px;
+}
