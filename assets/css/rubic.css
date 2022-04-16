@@ -11777,17 +11777,6 @@ img.tower {
 }
 
 
-/* Increase video modal Size on small screens */
-
-@media (max-width: 382px) {
-
-  .modal-content {
-    width: 90%;
-  }
-
-}
-
-
 /* Video Modal */
 
 .modal {
@@ -11812,6 +11801,17 @@ img.tower {
   border: 1px solid #AEAEAE;
   width: 60%;
 }
+
+/* Increase video modal Size on small screens */
+
+@media (max-width: 382px) {
+
+  .modal-content {
+    width: 90%;
+  }
+
+}
+
 
 /* The Close Button */
 .close {
