@@ -1,0 +1,500 @@
+<tr>
+<td><img src="assets\imgs\coins\bitcoin-btc-logo.svg" height="30px" width="30px" alt="btc" /></td>
+<td>BTC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\ethereum-eth-logo.svg" height="30px" width="30px" alt="eth" /></td>
+<td>ETH</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\tether-usdt-logo.svg" height="30px" width="30px" alt="usdt" /></td>
+<td>USDT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\binance-coin-bnb-logo.svg" height="30px" width="30px" alt="coin" /></td>
+<td>COIN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\usd-coin-usdc-logo.svg" height="30px" width="30px" alt="coin" /></td>
+<td>COIN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\solana-sol-logo.svg" height="30px" width="30px" alt="sol" /></td>
+<td>SOL</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\xrp-xrp-logo.svg" height="30px" width="30px" alt="xrp" /></td>
+<td>XRP</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\cardano-ada-logo.svg" height="30px" width="30px" alt="ada" /></td>
+<td>ADA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\terra-luna-luna-logo.svg" height="30px" width="30px" alt="luna" /></td>
+<td>LUNA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\avalanche-avax-logo.svg" height="30px" width="30px" alt="avax" /></td>
+<td>AVAX</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\dogecoin-doge-logo.svg" height="30px" width="30px" alt="doge" /></td>
+<td>DOGE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\polkadot-new-dot-logo.svg" height="30px" width="30px" alt="new" /></td>
+<td>NEW</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\binance-usd-busd-logo.svg" height="30px" width="30px" alt="usd" /></td>
+<td>USD</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\TerraUSD UST.svg" height="30px" width="30px" alt="usd" /></td>
+<td>USD</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\shiba-inu-shib-logo.svg" height="30px" width="30px" alt="inu" /></td>
+<td>INU</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\wrapped-bitcoin-wbtc-logo.svg" height="30px" width="30px" alt="bitcoin" /></td>
+<td>BITCOIN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\polygon-matic-logo.svg" height="30px" width="30px" alt="matic" /></td>
+<td>MATIC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\crypto-com-coin-cro-logo.svg" height="30px" width="30px" alt="com" /></td>
+<td>COM</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\near-protocol-near-logo.svg" height="30px" width="30px" alt="protocol" /></td>
+<td>PROTOCOL</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\multi-collateral-dai-dai-logo.svg" height="30px" width="30px" alt="collateral" /></td>
+<td>COLLATERAL</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\litecoin-ltc-logo.svg" height="30px" width="30px" alt="ltc" /></td>
+<td>LTC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\cosmos-atom-logo.svg" height="30px" width="30px" alt="atom" /></td>
+<td>ATOM</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\chainlink-link-logo.svg" height="30px" width="30px" alt="link" /></td>
+<td>LINK</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\uniswap-uni-logo.svg" height="30px" width="30px" alt="uni" /></td>
+<td>UNI</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\tron-trx-logo.svg" height="30px" width="30px" alt="trx" /></td>
+<td>TRX</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\ftx-token-ftt-logo.svg" height="30px" width="30px" alt="token" /></td>
+<td>TOKEN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\bitcoin-cash-bch-logo.svg" height="30px" width="30px" alt="cash" /></td>
+<td>CASH</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\unus-sed-leo-leo-logo.svg" height="30px" width="30px" alt="sed" /></td>
+<td>SED</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\ethereum-classic-etc-logo.svg" height="30px" width="30px" alt="classic" /></td>
+<td>CLASSIC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\algorand-algo-logo.svg" height="30px" width="30px" alt="algo" /></td>
+<td>ALGO</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\stellar-xlm-logo.svg" height="30px" width="30px" alt="xlm" /></td>
+<td>XLM</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\monero-xmr-logo.svg" height="30px" width="30px" alt="xmr" /></td>
+<td>XMR</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\decentraland-mana-logo.svg" height="30px" width="30px" alt="mana" /></td>
+<td>MANA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\vechain-vet-logo.svg" height="30px" width="30px" alt="vet" /></td>
+<td>VET</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\hedera-hashgraph-hbar-logo.svg" height="30px" width="30px" alt="hashgraph" /></td>
+<td>HASHGRAPH</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\filecoin-fil-logo.svg" height="30px" width="30px" alt="fil" /></td>
+<td>FIL</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\internet-computer-icp-logo.svg" height="30px" width="30px" alt="computer" /></td>
+<td>COMPUTER</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\elrond-egld-egld-logo.svg" height="30px" width="30px" alt="egld" /></td>
+<td>EGLD</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\theta-theta-logo.svg" height="30px" width="30px" alt="theta" /></td>
+<td>THETA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\the-sandbox-sand-logo.svg" height="30px" width="30px" alt="sandbox" /></td>
+<td>SANDBOX</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\apecoin-ape-logo.svg" height="30px" width="30px" alt="ape" /></td>
+<td>APE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\fantom-ftm-logo.svg" height="30px" width="30px" alt="ftm" /></td>
+<td>FTM</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\axie-infinity-axs-logo.svg" height="30px" width="30px" alt="infinity" /></td>
+<td>INFINITY</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\thorchain-rune-logo.svg" height="30px" width="30px" alt="rune" /></td>
+<td>RUNE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\klaytn-klay-logo.svg" height="30px" width="30px" alt="klay" /></td>
+<td>KLAY</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\tezos-xtz-logo.svg" height="30px" width="30px" alt="xtz" /></td>
+<td>XTZ</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\waves-waves-logo.svg" height="30px" width="30px" alt="waves" /></td>
+<td>WAVES</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\helium-hnt-logo.svg" height="30px" width="30px" alt="hnt" /></td>
+<td>HNT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\aave-aave-logo.svg" height="30px" width="30px" alt="aave" /></td>
+<td>AAVE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\pancakeswap-cake-logo.svg" height="30px" width="30px" alt="cake" /></td>
+<td>CAKE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\eos-eos-logo.svg" height="30px" width="30px" alt="eos" /></td>
+<td>EOS</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\zcash-zec-logo.svg" height="30px" width="30px" alt="zec" /></td>
+<td>ZEC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\flow-flow-logo.svg" height="30px" width="30px" alt="flow" /></td>
+<td>FLOW</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\iota-miota-logo.svg" height="30px" width="30px" alt="miota" /></td>
+<td>MIOTA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\maker-mkr-logo.svg" height="30px" width="30px" alt="mkr" /></td>
+<td>MKR</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\convex-finance-cvx-logo.svg" height="30px" width="30px" alt="finance" /></td>
+<td>FINANCE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\ecash-xec-logo.svg" height="30px" width="30px" alt="xec" /></td>
+<td>XEC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\the-graph-grt-logo.svg" height="30px" width="30px" alt="graph" /></td>
+<td>GRAPH</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\bittorrent-btt-logo.svg" height="30px" width="30px" alt="btt" /></td>
+<td>BTT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\bitcoin-sv-bsv-logo.svg" height="30px" width="30px" alt="sv" /></td>
+<td>SV</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\stacks-stx-logo.svg" height="30px" width="30px" alt="stx" /></td>
+<td>STX</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\kucoin-token-kcs-logo.svg" height="30px" width="30px" alt="token" /></td>
+<td>TOKEN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\neo-neo-logo.svg" height="30px" width="30px" alt="neo" /></td>
+<td>NEO</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\harmony-one-logo.svg" height="30px" width="30px" alt="one" /></td>
+<td>ONE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\gala-gala-logo.svg" height="30px" width="30px" alt="gala" /></td>
+<td>GALA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\celo-celo-logo.svg" height="30px" width="30px" alt="celo" /></td>
+<td>CELO</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\zilliqa-zil-logo.svg" height="30px" width="30px" alt="zil" /></td>
+<td>ZIL</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\enjin-coin-enj-logo.svg" height="30px" width="30px" alt="coin" /></td>
+<td>COIN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\quant-qnt-logo.svg" height="30px" width="30px" alt="qnt" /></td>
+<td>QNT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\huobi-token-ht-logo.svg" height="30px" width="30px" alt="token" /></td>
+<td>TOKEN</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\kusama-ksm-logo.svg" height="30px" width="30px" alt="ksm" /></td>
+<td>KSM</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\chiliz-chz-logo.svg" height="30px" width="30px" alt="chz" /></td>
+<td>CHZ</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\nexo-nexo-logo.svg" height="30px" width="30px" alt="nexo" /></td>
+<td>NEXO</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\mina-mina-logo.svg" height="30px" width="30px" alt="mina" /></td>
+<td>MINA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\STEPN GMT Logo.svg" height="30px" width="30px" alt="mina" /></td>
+<td>MINA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\trueusd-tusd-logo.svg" height="30px" width="30px" alt="tusd" /></td>
+<td>TUSD</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\loopring-lrc-logo.svg" height="30px" width="30px" alt="lrc" /></td>
+<td>LRC</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\dash-dash-logo.svg" height="30px" width="30px" alt="dash" /></td>
+<td>DASH</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\okb-okb-logo.svg" height="30px" width="30px" alt="okb" /></td>
+<td>OKB</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\curve-dao-token-crv-logo.svg" height="30px" width="30px" alt="dao" /></td>
+<td>DAO</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\arweave-ar-logo.svg" height="30px" width="30px" alt="ar" /></td>
+<td>AR</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\basic-attention-token-bat-logo.svg" height="30px" width="30px" alt="attention" /></td>
+<td>ATTENTION</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\kadena-kda-logo.svg" height="30px" width="30px" alt="kda" /></td>
+<td>KDA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\amp-amp-logo.svg" height="30px" width="30px" alt="amp" /></td>
+<td>AMP</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\Neutrino USD - USDN Logo.svg" height="30px" width="30px" alt=" USDN Logo.svg" /></td>
+<td> USDN LOGO.SVG</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\theta-fuel-tfuel-logo.svg" height="30px" width="30px" alt="fuel" /></td>
+<td>FUEL</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\paxos-standard-usdp-logo.svg" height="30px" width="30px" alt="standard" /></td>
+<td>STANDARD</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\nem-xem-logo.svg" height="30px" width="30px" alt="xem" /></td>
+<td>XEM</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\compound-comp-logo.svg" height="30px" width="30px" alt="comp" /></td>
+<td>COMP</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\holo-hot-logo.svg" height="30px" width="30px" alt="hot" /></td>
+<td>HOT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\oasis-network-rose-logo.svg" height="30px" width="30px" alt="network" /></td>
+<td>NETWORK</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\secret-scrt-logo.svg" height="30px" width="30px" alt="scrt" /></td>
+<td>SCRT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\Moonbeam GLMR Logo.svg" height="30px" width="30px" alt="scrt" /></td>
+<td>SCRT</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\decred-dcr-logo.svg" height="30px" width="30px" alt="dcr" /></td>
+<td>DCR</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\kava-kava-logo.svg" height="30px" width="30px" alt="kava" /></td>
+<td>KAVA</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\iotex-iotx-logo.svg" height="30px" width="30px" alt="iotx" /></td>
+<td>IOTX</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\icon-icx-logo.svg" height="30px" width="30px" alt="icx" /></td>
+<td>ICX</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\Anchor Protocol - ANC - Logo.svg" height="30px" width="30px" alt=" ANC " /></td>
+<td> ANC </td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\yearn-finance-yfi-logo.svg" height="30px" width="30px" alt="finance" /></td>
+<td>FINANCE</td>
+</tr>
+
+<tr>
+<td><img src="assets\imgs\coins\BORA BORA Logo.svg" height="30px" width="30px" alt="finance" /></td>
+<td>FINANCE</td>
+</tr>
+

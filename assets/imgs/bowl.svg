@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-259,-260)">
+        <g id="Bowl" transform="matrix(1.25,0,0,1.25,259,260)">
+            <rect x="0" y="0" width="200" height="200" style="fill:none;"/>
+            <g transform="matrix(0.112441,0,0,0.12859,-24.5084,-98.2931)">
+                <ellipse cx="1107.32" cy="1636.86" rx="711.482" ry="303.956" style="fill:rgb(248,68,0);stroke:black;stroke-width:27.6px;"/>
+            </g>
+            <g transform="matrix(0.103945,0,0,0.107611,-14.8077,-65.2591)">
+                <path d="M516.12,1295.23C1219.98,1300.56 603.135,1297.19 1672.78,1295.23C1715.63,1392.12 1764.11,1505.15 1818.8,1636.86C1818.8,1804.62 1500,1940.81 1107.32,1940.81C714.64,1940.81 395.836,1804.62 395.836,1636.86C425.136,1544.4 432.787,1512.61 516.12,1295.23Z" style="fill:rgb(248,68,0);stroke:black;stroke-width:31.51px;"/>
+            </g>
+            <g id="kadena-kda-logo.svg" transform="matrix(0.0148351,0,0,0.0148351,100,121.4)">
+                <g transform="matrix(1,0,0,1,-1000,-1101)">
+                    <path d="M1047.4,809.8L1104.4,883.8C1104.4,883.8 1447.4,1387.6 1619.2,1639.1C1737.7,1813.6 1856.2,1988.1 1974.9,2162.5C1984,2175 1992.4,2188 2000,2201.4C1788.8,2202.3 1577.6,2201.8 1366.5,2201.6C1156.3,1889.6 739,1263.5 739,1263.5L703,1197.9" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
+                    <path d="M554,1455.2C546.2,1461.4 546.8,1471.7 546.8,1480.7L538.3,1509.1L497.2,848.4L547.5,794.6C560.4,785.8 1059.9,257.8 1300.3,6.4C1306,-1.6 1316.3,0.8 1324.7,0.1C1533.9,0.8 1952.2,0.6 1952.2,0.6C1952.2,0.6 614.9,1390.6 554,1455.2Z" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
+                    <rect x="0" y="0.7" width="547.4" height="2200.1" style="fill:rgb(105,0,154);fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g transform="matrix(0.0844813,0,0,0.0835597,5.4071,-62.6532)">
+                <ellipse cx="1107.32" cy="1636.86" rx="711.482" ry="303.956" style="fill:url(#_Linear3);stroke:black;stroke-width:39.67px;"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(507.29,726.66,-726.66,507.29,891.381,1049.96)"><stop offset="0" style="stop-color:rgb(234,7,140);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(105,0,154);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1031.73,-634.12,634.12,1031.73,454.65,1042.69)"><stop offset="0" style="stop-color:rgb(234,7,140);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(105,0,154);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.94617e-14,651.566,-272.318,1.68586e-14,1122.78,1304.56)"><stop offset="0" style="stop-color:white;stop-opacity:1"/><stop offset="0.58" style="stop-color:rgb(231,231,231);stop-opacity:1"/><stop offset="0.8" style="stop-color:rgb(179,179,179);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(127,127,127);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

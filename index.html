@@ -1,94 +1,792 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CodeCats</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/x-icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/x-icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/x-icon/favicon-16x16.png">
-    <link rel="manifest" href="images/x-icon/site.webmanifest">
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <title>HODLDogz | A Limited Series of Collectible ERC-721 Non-Fungible Tokens</title>
+    <meta name="description" content="HODLDogz love Crypto! Can you find a dog that has your favourite crypto coin? All HODLDogz have at least one coin, but rarer dogs can have up to four different coins! Each dog is one-of-a-kind and 100% owned by you; it cannot be replicated, taken away, or destroyed.">
+    <meta name="author" content="HODLDogz">
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+	
+    <!-- Style Sheets -->
+	<link rel="stylesheet" href="assets/css/rubic.css">
+
+    <!-- Favicon & Device Icons -->
+	<link rel="icon" href="assets/imgs/HODLDogz Logo.svg" sizes="any" type="img/svg+xml">
+
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <nav id="scrollspy" class="navbar page-navbar navbar-dark navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+	
+        <div class="container">
+	
+            <a class="navbar-brand" href="#"><img src="assets\imgs\HODLDogz Logo.svg" height="60px" width="auto" alt="HODLDogz Logo" style="margin-right:10px;" /><strong class="text-primary">HODL</strong><span class="text-light">Dogz</span></a>
+			
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+					    <a class="nav-link" href="https://twitter.com/hodldogz" target="_blank"><img src="assets/imgs/twitter-logo.svg" height="30px" width="30px" alt="twitter" /></a>
+                    </li>
+                    <li class="nav-item">
+					    <a class="nav-link" href="https://discord.gg/PdMrNyCKVJ" target="_blank"><img src="assets/imgs/discord-logo.svg" height="30px" width="30px" alt="discord" /></a>
+                    </li>
+                    <li class="nav-item">
+					    <a class="nav-link" href="https://opensea.io/collection/hodldogz" target="_blank"><img src="assets/imgs/opensea-logo.svg" height="30px" width="30px" alt="opensea" /></a>
+                    </li>
+					<li class="nav-item">				
+					<a class="metamask-button" id="connectWallet">Install MetaMask</a>
+					</li>
+                </ul>
+            </div>
         </div>
-        <div class="menu">
-          <a
-            href="https://discord.gg/A9CnsVzzkZ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
-          </a>
-          <a
-            href="https://twitter.com/CodeCats10k"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.webp" alt="Twitter" />
-          </a>
-          <a
-            href="https://opensea.io/collection/codecats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/opensea.webp" alt="Opensea" />
-          </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
+    </nav>
+
+
+    <header class="header d-flex justify-content-center">
+        <div class="container">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-7">
+                    <div class="header-content">
+                        <h3 class="header-title"><strong class="text-primary">HODL</strong><span class="text-light">Dogz</span></h3>
+                        <h4 class="header-subtitle">Collectible ERC-721 Non-Fungible Tokens!</h4>
+                        <p>Can you find a dog with your favourite coin? All HODLDogz have at least one coin but rare dogs can have up to four!</p>
+						<p>Each dog is one-of-a-kind and 100% owned by you; it cannot be replicated, taken away, or destroyed.</p>
+						<a class="btn btn-primary rounded" style="margin-right:20px;" href="https://opensea.io/collection/hodldogz" target="_blank"><img src="assets/imgs/opensea-logo-alt.svg" height="30px" width="30px" alt="Opensea" /><span style="margin-left:10px;">View on Opensea</span></a>
+
+						<!-- Trigger Modal -->
+						<button id="videoBtn" class="btn btn-primary rounded"><img src="assets/imgs/play-button.svg" height="30px" width="30px" alt="Video Play Button" /><span style="margin-left:10px; color:#212529;">Play Video</span></button>
+						
+							<!-- The Modal -->
+							<div id="videoModal" class="modal">
+							  <!-- Modal content -->
+							  <div class="modal-content">  
+								<span class="close">&times;</span>
+								  <video src="assets\video\hodldogz-nft-airdrop.mp4" width="100%"  height="auto" controls poster="assets\video\thumbnail.png">
+									This video cannot be played in your current browser.<br>
+									View the download version at <a href="URL">Link address</a>. 
+								  </video>
+							   </div>
+							</div>
+
+                    </div>  
+                </div>
+
+				
+				<!-- Begin Right -->			
+				<div class="col-md-5 d-none d-md-block">
+						
+					<img src="assets\imgs\HODLDogz Logo.svg"  width="50%" height="auto" alt="HODLDogz Logo" style="float:right;" />
+					<div style="clear:both"></div>
+
+				<!-- End Right -->						
+				</div>
+	
+	
+            </div>  
         </div>
-      </div>
     </header>
 
-    <section class="container">
-      <div class="owner-status"></div>
-      <div class="countdown">
-        <ul
-          id="countdown"
-          class="count-down"
-          data-date="Feb 17, 2022 4:00:00 PM UTC"
-        >
-          <li class="clock-item">
-            <span class="count-number days">20</span>
-            <p class="count-text">Days</p>
-          </li>
 
-          <li class="clock-item">
-            <span class="count-number hours">20</span>
-            <p class="count-text">Hour</p>
-          </li>
+    <section class="section">
+        <div class="container">
+		<h4 class="title">Are HODLDogz available with your favourite coin?</h4>
+		<p>Each dog can have up to a maximum of four coins, but only one coin from each section:</p>
 
-          <li class="clock-item">
-            <span class="count-number minutes">20</span>
-            <p class="count-text">Min</p>
-          </li>
+                    <div class="tabs-container">
+                        <ul class="nav tab-nav" id="pills-tab">
+                            <li class="item">
+                                <a class="link active" id="coin-1-tab" data-toggle="pill" href="#coin-1"aria-selected="true"><img src="assets\imgs\ball.svg" height="80%" width="auto" alt="ball" /></a>
+                            </li>
+                            <li class="item">
+                                <a class="link" id="coin-2-tab" data-toggle="pill" href="#coin-2"aria-selected="false"><img src="assets\imgs\bone.svg" height="80%" width="auto"  alt="bone" /></a>
+                            </li>
+                            <li class="item">
+                                <a class="link" id="coin-3-tab" data-toggle="pill" href="#coin-3"aria-selected="false"><img src="assets\imgs\leash.svg" height="80%" width="auto"  alt="leash" /></a>
+                            </li>
+                            <li class="item">
+                                <a class="link" id="coin-4-tab" data-toggle="pill" href="#coin-4"aria-selected="false"><img src="assets\imgs\bowl.svg" height="80%" width="auto"  alt="bowl" /></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="coin-1">
+                              <h4 class="title">Ball Coins</h4>
 
-          <li class="clock-item">
-            <span class="count-number seconds">20</span>
-            <p class="count-text">Sec</p>
-          </li>
-        </ul>
-        <h1>NFT Drop Coming Soon!!</h1>
-               
-        <p>A new batch of cute cats will be available very soon!</p>
-        <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer" class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
-        </a>
-      </div>
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+            </tr>
+         </thead>
+         <tbody>
+		 
+			<tr>
+			<td><img src="assets\imgs\coins\bitcoin-btc-logo.svg" height="30px" width="30px" alt="btc" /></td>
+			<td>BTC</td>
+			<td><img src="assets\imgs\coins\ethereum-eth-logo.svg" height="30px" width="30px" alt="eth" /></td>
+			<td>ETH</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\tether-usdt-logo.svg" height="30px" width="30px" alt="usdt" /></td>
+			<td>USDT</td>
+			<td><img src="assets\imgs\coins\binance-coin-bnb-logo.svg" height="30px" width="30px" alt="bnb" /></td>
+			<td>BNB</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\usd-coin-usdc-logo.svg" height="30px" width="30px" alt="usdc" /></td>
+			<td>USDC</td>
+			<td><img src="assets\imgs\coins\solana-sol-logo.svg" height="30px" width="30px" alt="sol" /></td>
+			<td>SOL</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\xrp-xrp-logo.svg" height="30px" width="30px" alt="xrp" /></td>
+			<td>XRP</td>
+			<td><img src="assets\imgs\coins\cardano-ada-logo.svg" height="30px" width="30px" alt="ada" /></td>
+			<td>ADA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\terra-luna-luna-logo.svg" height="30px" width="30px" alt="luna" /></td>
+			<td>LUNA</td>
+			<td><img src="assets\imgs\coins\avalanche-avax-logo.svg" height="30px" width="30px" alt="avax" /></td>
+			<td>AVAX</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\dogecoin-doge-logo.svg" height="30px" width="30px" alt="doge" /></td>
+			<td>DOGE</td>
+			<td><img src="assets\imgs\coins\polkadot-new-dot-logo.svg" height="30px" width="30px" alt="DOT" /></td>
+			<td>DOT</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\binance-usd-busd-logo.svg" height="30px" width="30px" alt="busd" /></td>
+			<td>BUSD</td>
+			<td><img src="assets\imgs\coins\TerraUSD UST.svg" height="30px" width="30px" alt="ust" /></td>
+			<td>UST</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\shiba-inu-shib-logo.svg" height="30px" width="30px" alt="shib" /></td>
+			<td>SHIB</td>
+			<td><img src="assets\imgs\coins\wrapped-bitcoin-wbtc-logo.svg" height="30px" width="30px" alt="wbtc" /></td>
+			<td>WBTC</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\polygon-matic-logo.svg" height="30px" width="30px" alt="matic" /></td>
+			<td>MATIC</td>
+			<td><img src="assets\imgs\coins\crypto-com-coin-cro-logo.svg" height="30px" width="30px" alt="cro" /></td>
+			<td>CRO</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\near-protocol-near-logo.svg" height="30px" width="30px" alt="near" /></td>
+			<td>NEAR</td>
+			<td><img src="assets\imgs\coins\multi-collateral-dai-dai-logo.svg" height="30px" width="30px" alt="dai" /></td>
+			<td>DAI</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\litecoin-ltc-logo.svg" height="30px" width="30px" alt="ltc" /></td>
+			<td>LTC</td>
+			<td><img src="assets\imgs\coins\cosmos-atom-logo.svg" height="30px" width="30px" alt="atom" /></td>
+			<td>ATOM</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\chainlink-link-logo.svg" height="30px" width="30px" alt="link" /></td>
+			<td>LINK</td>
+			<td><img src="assets\imgs\coins\uniswap-uni-logo.svg" height="30px" width="30px" alt="uni" /></td>
+			<td>UNI</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\tron-trx-logo.svg" height="30px" width="30px" alt="trx" /></td>
+			<td>TRX</td>
+			<td></td>
+			<td></td>
+			</tr>
+
+         </tbody>
+      </table>
+
+
+
+
+                            </div>
+                            <div class="tab-pane fade" id="coin-2">
+                                <h4 class="title">Bone Coins</h4>
+								
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+            </tr>
+         </thead>
+         <tbody>	
+
+
+
+			<tr>
+			<td><img src="assets\imgs\coins\ftx-token-ftt-logo.svg" height="30px" width="30px" alt="ftt" /></td>
+			<td>FTT</td>
+			<td><img src="assets\imgs\coins\bitcoin-cash-bch-logo.svg" height="30px" width="30px" alt="bch" /></td>
+			<td>BCH</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\unus-sed-leo-leo-logo.svg" height="30px" width="30px" alt="leo" /></td>
+			<td>LEO</td>
+			<td><img src="assets\imgs\coins\ethereum-classic-etc-logo.svg" height="30px" width="30px" alt="etc" /></td>
+			<td>ETC</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\algorand-algo-logo.svg" height="30px" width="30px" alt="algo" /></td>
+			<td>ALGO</td>
+			<td><img src="assets\imgs\coins\stellar-xlm-logo.svg" height="30px" width="30px" alt="xlm" /></td>
+			<td>XLM</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\monero-xmr-logo.svg" height="30px" width="30px" alt="xmr" /></td>
+			<td>XMR</td>
+			<td><img src="assets\imgs\coins\decentraland-mana-logo.svg" height="30px" width="30px" alt="mana" /></td>
+			<td>MANA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\vechain-vet-logo.svg" height="30px" width="30px" alt="vet" /></td>
+			<td>VET</td>
+			<td><img src="assets\imgs\coins\hedera-hashgraph-hbar-logo.svg" height="30px" width="30px" alt="hbar" /></td>
+			<td>HBAR</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\filecoin-fil-logo.svg" height="30px" width="30px" alt="fil" /></td>
+			<td>FIL</td>
+			<td><img src="assets\imgs\coins\internet-computer-icp-logo.svg" height="30px" width="30px" alt="icp" /></td>
+			<td>ICP</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\elrond-egld-egld-logo.svg" height="30px" width="30px" alt="egld" /></td>
+			<td>EGLD</td>
+			<td><img src="assets\imgs\coins\theta-theta-logo.svg" height="30px" width="30px" alt="theta" /></td>
+			<td>THETA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\the-sandbox-sand-logo.svg" height="30px" width="30px" alt="sand" /></td>
+			<td>SAND</td>
+			<td><img src="assets\imgs\coins\apecoin-ape-logo.svg" height="30px" width="30px" alt="ape" /></td>
+			<td>APE</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\fantom-ftm-logo.svg" height="30px" width="30px" alt="ftm" /></td>
+			<td>FTM</td>
+			<td><img src="assets\imgs\coins\axie-infinity-axs-logo.svg" height="30px" width="30px" alt="axs" /></td>
+			<td>AXS</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\thorchain-rune-logo.svg" height="30px" width="30px" alt="rune" /></td>
+			<td>RUNE</td>
+			<td><img src="assets\imgs\coins\klaytn-klay-logo.svg" height="30px" width="30px" alt="klay" /></td>
+			<td>KLAY</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\tezos-xtz-logo.svg" height="30px" width="30px" alt="xtz" /></td>
+			<td>XTZ</td>
+			<td><img src="assets\imgs\coins\waves-waves-logo.svg" height="30px" width="30px" alt="waves" /></td>
+			<td>WAVES</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\helium-hnt-logo.svg" height="30px" width="30px" alt="hnt" /></td>
+			<td>HNT</td>
+			<td><img src="assets\imgs\coins\aave-aave-logo.svg" height="30px" width="30px" alt="aave" /></td>
+			<td>AAVE</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\pancakeswap-cake-logo.svg" height="30px" width="30px" alt="cake" /></td>
+			<td>CAKE</td>
+			<td></td>
+			<td></td>
+			</tr>							
+
+
+         </tbody>
+      </table>
+
+                            </div>
+                            <div class="tab-pane fade" id="coin-3">
+                                <h4 class="title">Leash Coins</h4>
+								
+								
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+            </tr>
+         </thead>
+         <tbody>	
+
+
+
+			<tr>
+			<td><img src="assets\imgs\coins\eos-eos-logo.svg" height="30px" width="30px" alt="eos" /></td>
+			<td>EOS</td>
+			<td><img src="assets\imgs\coins\zcash-zec-logo.svg" height="30px" width="30px" alt="zec" /></td>
+			<td>ZEC</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\flow-flow-logo.svg" height="30px" width="30px" alt="flow" /></td>
+			<td>FLOW</td>
+			<td><img src="assets\imgs\coins\iota-miota-logo.svg" height="30px" width="30px" alt="miota" /></td>
+			<td>MIOTA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\maker-mkr-logo.svg" height="30px" width="30px" alt="mkr" /></td>
+			<td>MKR</td>
+			<td><img src="assets\imgs\coins\convex-finance-cvx-logo.svg" height="30px" width="30px" alt="cvx" /></td>
+			<td>CVX</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\ecash-xec-logo.svg" height="30px" width="30px" alt="xec" /></td>
+			<td>XEC</td>
+			<td><img src="assets\imgs\coins\the-graph-grt-logo.svg" height="30px" width="30px" alt="grt" /></td>
+			<td>GRT</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\bittorrent-btt-logo.svg" height="30px" width="30px" alt="btt" /></td>
+			<td>BTT</td>
+			<td><img src="assets\imgs\coins\bitcoin-sv-bsv-logo.svg" height="30px" width="30px" alt="bsv" /></td>
+			<td>BSV</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\stacks-stx-logo.svg" height="30px" width="30px" alt="stx" /></td>
+			<td>STX</td>
+			<td><img src="assets\imgs\coins\kucoin-token-kcs-logo.svg" height="30px" width="30px" alt="kcs" /></td>
+			<td>KCS</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\neo-neo-logo.svg" height="30px" width="30px" alt="neo" /></td>
+			<td>NEO</td>
+			<td><img src="assets\imgs\coins\harmony-one-logo.svg" height="30px" width="30px" alt="one" /></td>
+			<td>ONE</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\gala-gala-logo.svg" height="30px" width="30px" alt="gala" /></td>
+			<td>GALA</td>
+			<td><img src="assets\imgs\coins\celo-celo-logo.svg" height="30px" width="30px" alt="celo" /></td>
+			<td>CELO</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\zilliqa-zil-logo.svg" height="30px" width="30px" alt="zil" /></td>
+			<td>ZIL</td>
+			<td><img src="assets\imgs\coins\enjin-coin-enj-logo.svg" height="30px" width="30px" alt="enj" /></td>
+			<td>ENJ</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\quant-qnt-logo.svg" height="30px" width="30px" alt="qnt" /></td>
+			<td>QNT</td>
+			<td><img src="assets\imgs\coins\huobi-token-ht-logo.svg" height="30px" width="30px" alt="ht" /></td>
+			<td>HT</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\kusama-ksm-logo.svg" height="30px" width="30px" alt="ksm" /></td>
+			<td>KSM</td>
+			<td><img src="assets\imgs\coins\chiliz-chz-logo.svg" height="30px" width="30px" alt="chz" /></td>
+			<td>CHZ</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\nexo-nexo-logo.svg" height="30px" width="30px" alt="nexo" /></td>
+			<td>NEXO</td>
+			<td><img src="assets\imgs\coins\mina-mina-logo.svg" height="30px" width="30px" alt="mina" /></td>
+			<td>MINA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\STEPN GMT Logo.svg" height="30px" width="30px" alt="GMT" /></td>
+			<td>GMT</td>
+			<td></td>
+			<td></td>
+			</tr>
+							
+
+
+         </tbody>
+      </table>
+	</div>
+					
+
+                           <div class="tab-pane fade" id="coin-4">
+                                <h4 class="title">Bowl Coins</h4>
+								
+								
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+               <th scope="col">Icon</th>
+               <th scope="col">Coin</th>
+            </tr>
+         </thead>
+         <tbody>	
+								
+
+			<tr>
+			<td><img src="assets\imgs\coins\trueusd-tusd-logo.svg" height="30px" width="30px" alt="tusd" /></td>
+			<td>TUSD</td>
+			<td><img src="assets\imgs\coins\loopring-lrc-logo.svg" height="30px" width="30px" alt="lrc" /></td>
+			<td>LRC</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\dash-dash-logo.svg" height="30px" width="30px" alt="dash" /></td>
+			<td>DASH</td>
+			<td><img src="assets\imgs\coins\okb-okb-logo.svg" height="30px" width="30px" alt="okb" /></td>
+			<td>OKB</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\curve-dao-token-crv-logo.svg" height="30px" width="30px" alt="dao" /></td>
+			<td>DAO</td>
+			<td><img src="assets\imgs\coins\arweave-ar-logo.svg" height="30px" width="30px" alt="ar" /></td>
+			<td>AR</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\basic-attention-token-bat-logo.svg" height="30px" width="30px" alt="bat" /></td>
+			<td>BAT</td>
+			<td><img src="assets\imgs\coins\kadena-kda-logo.svg" height="30px" width="30px" alt="kda" /></td>
+			<td>KDA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\amp-amp-logo.svg" height="30px" width="30px" alt="amp" /></td>
+			<td>AMP</td>
+			<td><img src="assets\imgs\coins\Neutrino USD - USDN Logo.svg" height="30px" width="30px" alt="usdn" /></td>
+			<td>USDN</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\theta-fuel-tfuel-logo.svg" height="30px" width="30px" alt="fuel" /></td>
+			<td>FUEL</td>
+			<td><img src="assets\imgs\coins\paxos-standard-usdp-logo.svg" height="30px" width="30px" alt="usdp" /></td>
+			<td>USDP</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\nem-xem-logo.svg" height="30px" width="30px" alt="xem" /></td>
+			<td>XEM</td>
+			<td><img src="assets\imgs\coins\compound-comp-logo.svg" height="30px" width="30px" alt="comp" /></td>
+			<td>COMP</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\holo-hot-logo.svg" height="30px" width="30px" alt="hot" /></td>
+			<td>HOT</td>
+			<td><img src="assets\imgs\coins\oasis-network-rose-logo.svg" height="30px" width="30px" alt="rose" /></td>
+			<td>ROSE</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\secret-scrt-logo.svg" height="30px" width="30px" alt="scrt" /></td>
+			<td>SCRT</td>
+			<td><img src="assets\imgs\coins\Moonbeam GLMR Logo.svg" height="30px" width="30px" alt="GLMR" /></td>
+			<td>GLMR</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\decred-dcr-logo.svg" height="30px" width="30px" alt="dcr" /></td>
+			<td>DCR</td>
+			<td><img src="assets\imgs\coins\kava-kava-logo.svg" height="30px" width="30px" alt="kava" /></td>
+			<td>KAVA</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\iotex-iotx-logo.svg" height="30px" width="30px" alt="iotx" /></td>
+			<td>IOTX</td>
+			<td><img src="assets\imgs\coins\icon-icx-logo.svg" height="30px" width="30px" alt="icx" /></td>
+			<td>ICX</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\Anchor Protocol - ANC - Logo.svg" height="30px" width="30px" alt="anc" /></td>
+			<td>ANC</td>
+			<td><img src="assets\imgs\coins\yearn-finance-yfi-logo.svg" height="30px" width="30px" alt="yfi" /></td>
+			<td>YFI</td>
+			</tr>
+
+			<tr>
+			<td><img src="assets\imgs\coins\BORA BORA Logo.svg" height="30px" width="30px" alt="bora" /></td>
+			<td>BORA</td>
+			<td></td>
+			<td></td>
+			</tr>
+
+         </tbody>
+      </table>
+	</div>		
+					
+					
+					
+					
+                </div>
+            </div>                  
+        </div>                      
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5 align-self-center mb-4 mb-md-0">
+				 
+					<img src="assets\imgs\HODLDogz Dog Pound.svg"  width="85%" height="auto" alt="HODLDogz Dog Pound" style="float:left;" />
+					<div style="clear:both"></div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <h6 class="title">Procedural Generation</h6>
+                    <p>HODLDogz are procedurally generated from 440 vector layers that were hand-drawn using industry standard design tools.</p>
+                    <ul class="list-unstyled mt-4">
+                        <li class="media">
+                            <div class="circle-40 mr-3 mt-1"><i class="ti-gift"></i></div>
+                            <div class="media-body">
+                                <h6 class="mb-2">HODLDogz House</h6>
+                                <p>HODLDogz arrive in a dog house, and will be automatically revealed a short time after purchase.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-40 mr-3 mt-1"><i class="ti-face-smile"></i></div>
+                            <div class="media-body">
+                                <h6 class="mb-2">11 Rarity-weighted Random Traits</h6>
+                                <p>Each dog has its own unique combination of 11 traits, but some traits are rarer than others.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-40 mr-3 mt-1"><i class="ti-microphone"></i></div>
+                            <div class="media-body">
+                                <h6 class="mb-2">Minted on Polygon</h6> 
+                                <p>Polygon POS employs side-chain transactions to achieve unprecedented cost savings and transaction speed, features include security, sovereignty, ETH compatibility, interoperability, and scalability.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container text-center">
+       
+            <h6 class="display-4 has-line">NFT AIRDROP COMING SOON!</h6>
+				
+				<div id="timer"></div>                   
+					  
+				<p style="text-align:center; font-style:italic;">Share our website on social media to qualify. <br />Offer limited to 10% of each minting run (Total Airdrop Supply 1000). Join our Discord channel to apply.</p>
+
+				<a class="btn btn-primary rounded" href="https://discord.gg/PdMrNyCKVJ" target="_blank"><img src="assets/imgs/discord-logo-alt.svg" height="30px" width="30px" alt="Discord Alt Logo" /><span style="margin-left:10px;">Join Discord</span></a>
+
+        </div>
+    </section>
+	
+
+
+    <section class="section has-img-bg">
+
+        <div class="container">
+		
+           <h6 class="display-4 has-line  text-center">ROADMAP</h6>
+
+            <span class="text-left text-primary"><small>April 2022</small></span><br />
+            <span class="text-left"><small>Rinkeby Test Network Minting</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>100%</span></div>
+            </div>
+			
+            <span class="text-left text-primary"><small>April 2022</small></span><br />
+            <span class="text-left"><small>Mint (#1 to #99) to Polygon Chain </small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>100%</span></div>
+            </div>
+
+            <span class="text-left text-primary"><small>Mint (#1 to #99) Sale Allocation</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-dark" role="progressbar" style="width: 89%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+            </div>
+
+            <span class="text-left text-primary"><small>Mint (#1 to #99) Airdrop Allocation</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-dark" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>10%</span></div>
+            </div>
+			
+			
+            <span class="text-left text-primary"><small>TBA</small></span><br />
+            <span class="text-left"><small>Mint (#100 to #199) to Polygon Chain</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>100%</span></div>
+            </div>
+
+            <span class="text-left text-primary"><small>Mint (#100 to #199) Sale Allocation</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-dark" role="progressbar" style="width: 89%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+            </div>
+
+            <span class="text-left text-primary"><small>Mint (#100 to #199) Airdrop Allocation</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-dark" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>10%</span></div>
+            </div>
+
+            <span class="text-left text-primary"><small>Total HODLDogz Minted (#99 of #10,000)</small></span>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-success" role="progressbar" style="width: 0.99%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>0.99%</span></div>
+            </div>
+
+<!--
+            <hr>
+            <small>Default: </small>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+            </div>
+            <small>Success:</small>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+            </div>
+            <small>Danger:</small>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+            </div>
+            <small>Warning:</small>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+            </div>
+            <small>Info:</small>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+            </div>
+            <small>Dark:</small>
+            <div class="progress mt-2 mb-3">
+               <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+            </div>
+
+ -->
+		
+        </div>
+		
+    </section>
+ 
+ 
+ 
+    <section class="section" id="review">
+        <div class="container text-center">
+            <h6 class="display-4 has-line">Our Team</h6>
+            <p class="mb-5 pb-4">Meet the top dogs in our organization.</p>
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="testmonial">                        
+                        <p class="description"><i>It's "woof" at the top.</i></p>
+                        <div class="media">
+                            <img class="mr-3" src="assets/imgs/1.png" width="120" alt="HODLDogz Sample 1">
+                            <div class="media-body">
+                                <h6 class="title">Sir Walter Hodl</h6>
+                                <p class="text-muted">Project Lead</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testmonial">                        
+                        <p class="description"><i>"let promise = fetch"</i></p>
+                        <div class="media">
+                            <img class="mr-3" src="assets/imgs/2.png" width="120" alt="HODLDogz Sample 2">
+                            <div class="media-body">
+                                <h6 class="title">Bowser</h6>
+                                <p class="text-muted">Lead Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testmonial">                        
+                        <p class="description"><i>Running ahead of the pack.</i></p>
+                        <div class="media">
+                            <img class="mr-3" src="assets/imgs/3.png" width="120" alt="HODLDogz Sample 3">
+                            <div class="media-body">
+                                <h6 class="title">Waffles</h6>
+                                <p class="text-muted">Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </section>
+	
+
+
+    <section class="section text-center">
+		<div class="contact">
+			<p><button class="btn btn-outline-primary" onclick="topFunction()" id="topBtn" title="Go to top">Back To Top</button></p>
+		</div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
-    <script src="js/countdown.js"></script>
+
+    <footer class="footer py-4 bg-dark text-light"> 
+        <div class="container text-center">
+            <p class="mb-4 small">Copyright <script>document.write(new Date().getFullYear())</script> - &copy; <span class="text-primary">HODL</span>Dogz </p>
+        </div>
+    </footer>
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- js -->
+    <script src="assets/js/rubic.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
     <script src="js/app.js"></script>
-  </body>
+	<script src="assets/js/countdown.js"></script>
+	<script src="assets/js/scroll.js"></script>
+	<script src="assets/js/modal.js"></script>
+</body>
 </html>
