@@ -11682,12 +11682,9 @@ img.tower {
 
 /* Owner Status Styles */
 .owner-status {
-  position: relative;
-  top: 20px;
   width: 100%;
   font-size: 1.3rem;
   text-align: center;
-  min-height:30px;
 }
 
 /* Begin Countdown  */
